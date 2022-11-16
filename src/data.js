@@ -25,7 +25,7 @@ export const sliderItems = [
 export const categories = [
 	{
 		id: 1,
-		img: "https://images.pexels.com/photos/1254502/pexels-photo-1254502.jpeg?cs=srgb&dl=pexels-ali-madad-sakhirani-1254502.jpg&fm=jpg",
+		img: "https://i.pinimg.com/474x/3f/72/86/3f72869910951f2703695fc2721a3e5f.jpg",
 		title: "SHIRT STYLE",
 	},
 	{
@@ -35,7 +35,42 @@ export const categories = [
 	},
 	{
 		id: 3,
-		img: "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/15131036/2022/3/24/d5566209-3e53-46a0-9946-505cbd8786d41648100796044-WROGN-Men-Olive-Green-Sporty-Jacket-7591648100795523-1.jpg",
+		img: "https://styleyouroccasion.com/wp-content/uploads/2022/06/outfits-with-light-blue-jeans-17.jpg",
 		title: "LIGHT JACKETS",
+	},
+];
+
+export const popularProducts = [
+	{
+		id: 1,
+		img: "https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+	},
+	{
+		id: 2,
+		img: "https://cottonbureau.imgix.net/products/originals/43011_sSPQ.png?auto=compress%2Cformat&fit=max&ixlib=php-3.3.1&w=1200",
+	},
+	{
+		id: 3,
+		img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+	},
+	{
+		id: 4,
+		img: "https://www.burdastyle.com/media/catalog/product/cache/5dce411aab5e9e93103a1808ddd11c54/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+	},
+	{
+		id: 5,
+		img: "https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+	},
+	{
+		id: 6,
+		img: "https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+	},
+	{
+		id: 7,
+		img: "https://benscore.com/media/catalog/product/2/2/2217_arrow_jacket_forest.png",
+	},
+	{
+		id: 8,
+		img: "https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
 	},
 ];

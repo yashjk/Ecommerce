@@ -1,18 +1,8 @@
 import React, { useState } from "react";
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import { sliderItems } from "../data";
-import {
-	Arrow,
-	Container,
-	Desc,
-	Image,
-	Title,
-	ImgContainer,
-	InfoContainer,
-	Slide,
-	Wrapper,
-	Button,
-} from "./utils/styledComponents/Slider";
+import Slide from "./Slide";
+import { Arrow, Container, Wrapper } from "./utils/styledComponents/Slider";
 
 const Slider = () => {
 	const [slideIndex, setSlideIndex] = useState(0);
@@ -30,16 +20,7 @@ const Slider = () => {
 			</Arrow>
 			<Wrapper sliderIndex={slideIndex}>
 				{sliderItems.map((item) => (
-					<Slide key={item.id} bg="f5fafd">
-						<ImgContainer>
-							<Image src={item.img}></Image>
-						</ImgContainer>
-						<InfoContainer>
-							<Title>{item.title}</Title>
-							<Desc>{item.desc} </Desc>
-							<Button>SHOP NOW</Button>
-						</InfoContainer>
-					</Slide>
+					<Slide key={item.id} sliderItem={item} />
 				))}
 			</Wrapper>
 			<Arrow direction="right" onClick={() => handleClick("right")}>
