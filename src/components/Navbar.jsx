@@ -12,7 +12,7 @@ import {
 	Logo,
 	Right,
 	MenuItem,
-} from "./utils/styledComponents/Navbar";
+} from "../styledComponents/Navbar";
 
 
 const Navbar = () => {

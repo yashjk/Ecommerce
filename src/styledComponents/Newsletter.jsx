@@ -7,7 +7,7 @@ export const Container = styled.div`
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	background-color: #fdf5f5;
+	background-color: #fcf5f5;
 `;
 
 export const Title = styled.h1`
@@ -21,10 +21,11 @@ export const Desc = styled.div`
 	margin-bottom: 20px;
 `;
 
-export const InputContainer = styled.h1`
-	display: flex;
+export const InputContainer = styled.div`
 	width: 50%;
-	background-color: #fff;
+	height: 40px;
+	background-color: white;
+	display: flex;
 	justify-content: space-between;
 	border: 1px solid lightgray;
 `;
@@ -38,6 +39,6 @@ export const Input = styled.input`
 export const Button = styled.button`
 	border: none;
 	flex: 1;
-	color: #fff;
+	color: white;
 	background-color: teal;
 `;
