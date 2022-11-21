@@ -7,7 +7,7 @@ import {
 	InfoContainer,
 	Title,
 	Button,
-} from "../styledComponents/Slide";
+} from "../utils/styledComponents/Slide";
 
 const Slide = ({sliderItem}) => {
 	return (
