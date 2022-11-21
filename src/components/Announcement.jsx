@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from "../styledComponents/Announcement";
+import { Container } from "../utils/styledComponents/Announcement";
 
 const Announcement = () => {
 	return <Container>Announcement</Container>;

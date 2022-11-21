@@ -5,7 +5,7 @@ import {
 	Info,
 	Image,
 	Icon,
-} from "../styledComponents/Product";
+} from "../utils/styledComponents/Product";
 import {
 	FavoriteBorderOutlined,
 	SearchOutlined,

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import { sliderItems } from "../data";
 import Slide from "./Slide";
-import { Arrow, Container, Wrapper } from "../styledComponents/Slider";
+import { Arrow, Container, Wrapper } from "../utils/styledComponents/Slider";
 
 const Slider = () => {
 	const [slideIndex, setSlideIndex] = useState(0);

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../styledComponents/Products";
+import { Container } from "../utils/styledComponents/Products";
 import { popularProducts } from "../data";
 import Product from "./Product";
 
