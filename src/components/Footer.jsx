@@ -15,7 +15,6 @@ import {
 	ContactItem,
 	Container,
 	Desc,
-	IconStyle,
 	Left,
 	List,
 	ListItem,
