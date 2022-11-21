@@ -1,5 +1,11 @@
 import React from "react";
-import { Circle, Container, Info, Image, Icon } from "./utils/styledComponents/Product";
+import {
+	Circle,
+	Container,
+	Info,
+	Image,
+	Icon,
+} from "../styledComponents/Product";
 import {
 	FavoriteBorderOutlined,
 	SearchOutlined,

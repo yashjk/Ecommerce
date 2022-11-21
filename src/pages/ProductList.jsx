@@ -12,7 +12,7 @@ import {
 	Option,
 	Select,
 	Title,
-} from "../utils/styledComponents/ProductList";
+} from "../styledComponents/ProductList";
 
 const ProductList = () => {
 	return (

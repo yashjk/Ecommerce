@@ -5,7 +5,7 @@ import {
 	Title,
 	Info,
 	Button,
-} from "./utils/styledComponents/CategoryItem";
+} from "../styledComponents/CategoryItem";
 
 const CategoryItem = ({ item }) => {
 	return (

@@ -24,7 +24,7 @@ import {
 	SocialContainer,
 	SocialIcon,
 	Title,
-} from "./utils/styledComponents/Footer";
+} from "../styledComponents/Footer";
 
 const Footer = () => {
 	return (
