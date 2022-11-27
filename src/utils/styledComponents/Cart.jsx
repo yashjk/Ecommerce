@@ -1,9 +1,11 @@
 import styled from "styled-components";
+import { mobile } from '../../responsive';
 
 export const Container = styled.div``;
 
 export const Wrapper = styled.div`
 	padding: 20px;
+	${mobile({ padding: "10px" })}
 `;
 
 export const Title = styled.h1`
@@ -27,7 +29,10 @@ export const TopButton = styled.button`
 	color: ${(props) => props.type === "filled" && "white"};
 `;
 
-export const TopTexts = styled.div``;
+export const TopTexts = styled.div`
+	${mobile({ display: "none" })}
+`;
+
 export const TopText = styled.span`
 	text-decoration: underline;
 	cursor: pointer;
@@ -37,6 +42,7 @@ export const TopText = styled.span`
 export const Bottom = styled.div`
 	display: flex;
 	justify-content: space-between;
+	${mobile({ flexDirection: "column"})}
 `;
 
 export const Info = styled.div`
@@ -46,6 +52,7 @@ export const Info = styled.div`
 export const Product = styled.div`
 	display: flex;
 	justify-content: space-between;
+	${mobile({ flexDirection: "column" })}
 `;
 
 export const ProductInfo = styled.div`
@@ -93,10 +100,12 @@ export const AmountContainer = styled.div`
 export const ProductAmount = styled.div`
 	font-size: 24px;
 	margin: 5px;
+	${mobile({ margin: "5px 15px" })}
 `;
 export const Price = styled.div`
 	font-size: 30px;
 	font-weight: 200;
+	${mobile({ marginBottom: "20px" })}
 `;
 
 export const Hr = styled.hr`
